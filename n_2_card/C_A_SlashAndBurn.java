@@ -16,6 +16,8 @@ public class C_A_SlashAndBurn extends C_A {
 		for (int i = 0; i < 5; i++) {
 			super.secondAbility(player, board, processor);
 		}
+		player.getBoardOfPlayer().getCards().remove(this);
+		board.getTrashCard().getCards().add(this);
 		return false;
 	}
 
