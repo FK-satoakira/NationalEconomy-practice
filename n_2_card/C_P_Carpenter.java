@@ -11,16 +11,4 @@ public class C_P_Carpenter extends C_B {
 
 	}
 
-	@Override
-	public boolean ability(Player player, Board board, P processor) {
-
-		return super.ability(player, board, processor);
-	}
-
-	@Override
-	protected boolean secondAbility(Player player, Board board, P processor) {
-
-		return super.secondAbility(player, board, processor);
-	}
-
 }
